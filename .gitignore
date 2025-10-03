@@ -28,3 +28,9 @@ yarn-error.log*
 dist/
 build/
 *.egg-info/
+
+# Ignore SSH and private keys
+id_ed25519
+id_ed25519.pub
+*.pem
+*.key
