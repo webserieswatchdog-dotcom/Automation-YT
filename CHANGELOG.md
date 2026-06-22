@@ -2,9 +2,12 @@
 
 ## v0.1.0
 
+### Added
 - Initial project structure
-- Added documentation
-- Added script generation module
-- Added video pipeline module
-- Added installation guide
-- Added contribution guidelines
+- AI script generation module
+- Voice generation placeholder
+- Video pipeline module
+- Configuration module
+- Documentation
+- Installation guide
+- Contributing guide
