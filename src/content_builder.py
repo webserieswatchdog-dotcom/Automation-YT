@@ -9,7 +9,10 @@ def build_content(topic):
     script = generate_script(topic)
 
     title = f"{topic} Explained"
-    description = f"Learn about {topic} with Automation-YT."
+    description = (
+    f"Learn about {topic}. "
+    f"Research Summary: {research}"
+)
     tags = [topic, "AI", "Automation", "YouTube"]
 
     thumbnail_prompt = (
