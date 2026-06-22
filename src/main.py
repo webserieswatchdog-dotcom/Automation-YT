@@ -1,17 +1,25 @@
-from youtube_content_generator import build_content
+from content_builder import build_content
 
 
 def main():
-    topic = input("Enter a YouTube topic: ")
+    topic = input("Enter topic: ")
 
-    result = build_content(topic)
+    content = build_content(topic)
 
-    print("\nGenerated Content\n")
+    print("\nTITLE")
+    print(content.title)
 
-    for key, value in result.items():
-        print(f"{key}:")
-        print(value)
-        print()
+    print("\nDESCRIPTION")
+    print(content.description)
+
+    print("\nTAGS")
+    print(content.tags)
+
+    print("\nTHUMBNAIL")
+    print(content.thumbnail_prompt)
+
+    print("\nSCRIPT")
+    print(content.script)
 
 
 if __name__ == "__main__":
