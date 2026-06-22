@@ -1,25 +1,38 @@
-# Architecture
+# Automation-YT Architecture
 
-Automation-YT follows a modular architecture.
-
-## Pipeline
+## Content Generation Flow
 
 Topic
-→ Research
-→ Script Generation
-→ Metadata Generation
-→ Thumbnail Prompt
-→ Voice Generation
-→ Subtitle Generation
-→ Video Assembly
+→ Research Service
+→ Script Generator
+→ Metadata Generator
+→ Thumbnail Prompt Generator
+→ Voice Generator
+→ Subtitle Generator
+→ Video Pipeline
 → YouTube Upload
 
-## Components
+## Modules
 
-- generators/
-- services/
-- models/
-- content_builder.py
-- video_pipeline.py
+### generators
+Responsible for content generation.
 
-Future versions will integrate LLM providers, TTS engines and automated publishing workflows.
+### services
+External integrations and research.
+
+### models
+Data models used across the pipeline.
+
+### video_pipeline.py
+Handles video assembly.
+
+### youtube_content_generator.py
+Coordinates content publishing.
+
+## Future Roadmap
+
+- LLM Integration
+- Multi-language Support
+- Automated Video Rendering
+- YouTube API Publishing
+- AI Thumbnail Generation
