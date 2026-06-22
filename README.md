@@ -38,3 +38,37 @@ Automation-YT/
 ├── README.md
 └── requirements.txt
 ```
+
+
+## Demo
+
+Run the application:
+
+```bash
+python src/main.py
+```
+
+Example:
+
+```
+Enter a YouTube topic:
+Artificial Intelligence
+```
+
+Output:
+
+```
+Title:
+Artificial Intelligence Explained in 5 Minutes
+
+Description:
+This video explores Artificial Intelligence using AI-powered automation.
+
+Tags:
+Artificial Intelligence
+AI
+Automation
+YouTube
+Python
+```
+
