@@ -1,3 +1,22 @@
+## Project Status
+
+Current Version: v0.1.0
+
+Features:
+- Research Pipeline
+- Script Generation
+- Metadata Generation
+- Thumbnail Prompt Generation
+- Subtitle Generation
+- Video Pipeline Foundation
+
+Planned:
+- AI Integrations
+- TTS Support
+- Automated Rendering
+- YouTube Upload Automation
+
+
 <p align="center">
   <img src="assets/banner.png" alt="Automation-YT Banner" width="100%">
 </p>
