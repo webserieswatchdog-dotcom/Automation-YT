@@ -25,4 +25,4 @@ jobs:
 
       - name: Run application
         run: |
-          python src/main.py
+          echo "Artificial Intelligence" | python src/main.py
