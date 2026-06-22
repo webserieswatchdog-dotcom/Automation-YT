@@ -1,5 +1,18 @@
-Artificial Intelligence
-Quantum Computing
-Future of Robotics
-Space Exploration
-Machine Learning
+# Example Output
+
+Topic: Artificial Intelligence
+
+Title:
+Artificial Intelligence Explained
+
+Description:
+Learn about Artificial Intelligence and its future impact.
+
+Tags:
+AI, Automation, YouTube
+
+Thumbnail Prompt:
+Create a futuristic YouTube thumbnail about Artificial Intelligence
+
+Script:
+[Generated Script Here]
