@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Automation-YT Banner" width="100%">
+</p>
+
+
 ## Installation
 
 ```bash
