@@ -4,15 +4,17 @@ from models.video_content import VideoContent
 
 
 def build_content(topic):
-    research = get_research_notes(topic)
+    research = create_research_query(topic)
 
     script = generate_script(topic)
 
     title = f"{topic} Explained"
+
     description = (
-    f"Learn about {topic}. "
-    f"Research Summary: {research}"
-)
+        f"Learn about {topic}. "
+        f"Research Query: {research}"
+    )
+
     tags = [topic, "AI", "Automation", "YouTube"]
 
     thumbnail_prompt = (
