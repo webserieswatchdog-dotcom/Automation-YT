@@ -1,6 +1,6 @@
-from src.generators.script_generator import generate_script
-from src.services.research_service import get_research_notes
-from src.models.video_content import VideoContent
+from script_generator import generate_script
+from research import create_research_query
+from models.video_content import VideoContent
 
 
 def build_content(topic):
